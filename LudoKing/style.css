@@ -1,0 +1,181 @@
+html {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+body {
+    margin: 0;
+}
+
+.home {
+    height: 160px;
+    width: 160px;
+}
+
+
+
+#red-home {
+    border: 40px solid red;
+    padding: 0px;
+    float: left;
+}
+
+#green-home {
+    border: 40px solid green;
+    padding: 0px;
+    float: right;
+}
+
+#yellow-home {
+    border: 40px solid yellow;
+    padding: 0px;
+    float: right;
+}
+
+#blue-home {
+    border: 40px solid blue;
+    padding: 0px;
+    float: left;
+}
+
+.room {
+    width: 38px;
+    height: 38px;
+    float: left;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+#rr1,
+#rr2,
+#rr3,
+#rr4 {
+    background: red;
+}
+
+#rg1,
+#rg2,
+#rg3,
+#rg4 {
+    background: green;
+}
+
+#ry1,
+#ry2,
+#ry3,
+#ry4 {
+    background: yellow;
+}
+
+#rb1,
+#rb2,
+#rb3,
+#rb4 {
+    background: blue;
+}
+
+.company {
+    width: 120px;
+    height: 120px;
+    /* background: black; */
+    float: left;
+}
+
+svg {
+    width: 120px;
+    height: 120px;
+}
+
+.office {
+    stroke: black;
+    stroke-width: 1;
+}
+
+#red-office {
+    fill: red;
+}
+
+#green-office {
+    fill: green;
+}
+
+#yellow-office {
+    fill: yellow;
+}
+
+#blue-office {
+    fill: blue;
+}
+
+#red-road {
+    height: 120px;
+    width: 240px;
+    padding: 0px;
+    float: left;
+}
+
+#green-road {
+    height: 240px;
+    width: 120px;
+    padding: 0px;
+    float: left;
+}
+
+#yellow-road {
+    height: 120px;
+    width: 240px;
+    padding: 0px;
+    float: left;
+}
+
+#blue-road {
+    height: 240px;
+    width: 120px;
+    padding: 0px;
+    float: left;
+}
+
+.cell {
+    width: 38px;
+    height: 38px;
+    border: 1px solid black;
+    float: left;
+}
+
+#cr2,
+#cr8,
+#cr9,
+#cr10,
+#cr11,
+#cr12 {
+    background: red;
+}
+
+#cg5,
+#cg6,
+#cg8,
+#cg11,
+#cg14,
+#cg17 {
+    background: green;
+}
+
+#cy7,
+#cy8,
+#cy9,
+#cy10,
+#cy11,
+#cy17 {
+    background: yellow;
+}
+
+#cb2,
+#cb5,
+#cb8,
+#cb11,
+#cb13,
+#cb14 {
+    background: blue;
+}
