@@ -9,6 +9,7 @@ body {
     margin: 0;
 }
 
+/*************************** Home *****************************/
 .home {
     height: 160px;
     width: 160px;
@@ -40,12 +41,15 @@ body {
     float: left;
 }
 
+/*************************** Room *****************************/
 .room {
     width: 38px;
     height: 38px;
     float: left;
     margin: 20px;
     border-radius: 50%;
+    vertical-align: center;
+    text-align: center;
 }
 
 #rr1,
@@ -76,6 +80,7 @@ body {
     background: blue;
 }
 
+/*************************** Company *****************************/
 .company {
     width: 120px;
     height: 120px;
@@ -109,6 +114,7 @@ svg {
     fill: blue;
 }
 
+/*************************** Road *****************************/
 #red-road {
     height: 120px;
     width: 240px;
@@ -137,6 +143,7 @@ svg {
     float: left;
 }
 
+/*************************** Cell *****************************/
 .cell {
     width: 38px;
     height: 38px;
@@ -178,4 +185,10 @@ svg {
 #cb13,
 #cb14 {
     background: blue;
+}
+
+/*************************** Player *****************************/
+.player {
+    width: 16px;
+    height: 30px;
 }
