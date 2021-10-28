@@ -1,0 +1,4 @@
+PyAutoGUI
+matplotlib
+turtle
+pyttsx3
